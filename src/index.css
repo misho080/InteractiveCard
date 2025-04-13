@@ -15,8 +15,8 @@ body {
   width: 412px;
   height: 416px;
   display: block;
-  margin-left: 43%;
-  margin-top: 420px;
+  margin-top: 180px;
+  margin-left: 500px;
   text-align: center;
   gap: 0px;
   border-radius: 30px;
@@ -93,8 +93,8 @@ body {
   background-color: #181E27;
   width: 412px;
   height: 416px;
-  margin-top: 420px;
-  margin-left: 43%;
+  margin-top: 180px;
+  margin-left: 500px;
   text-align: center;
   gap: 0px;
   border-radius: 30px;
@@ -171,7 +171,8 @@ body {
   justify-content: space-around;
 }
 
-.button {
+
+.checkedButton {
   width: 51px;
   height: 51px;
   border-radius: 100%;
@@ -181,6 +182,10 @@ body {
   background-color: #262E38;
   border-style: none;
 }
+.checkedButton:focus{
+  background-color: #FC7614;
+}
+
 
 .button span {
   color: #7C8798;
@@ -212,7 +217,6 @@ body {
   font-weight: 700;
   line-height: 18.99px;
   letter-spacing: 2px;
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #FFFFFF;

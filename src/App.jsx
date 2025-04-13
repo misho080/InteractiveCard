@@ -16,6 +16,8 @@ function App() {
   }
 
 
+
+
   return (
     <>
 
@@ -31,13 +33,13 @@ function App() {
                 <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
               </div>
               <div className="buttons">
-                <Button value={<span>1</span>} onclick={() => setCount(1)} />
-                <Button value={<span>2</span>} onclick={() => setCount(2)} />
-                <Button value={<span>3</span>} onclick={() => setCount(3)} />
-                <Button value={<span>4</span>} onclick={() => setCount(4)} />
-                <Button value={<span>5</span>} onclick={() => setCount(5)} />
+                <Button className={"checkedButton"} value={<span>1</span>} onclick={() => setCount(1)} />
+                <Button className={"checkedButton"} value={<span>2</span>} onclick={() => setCount(2)} />
+                <Button className={"checkedButton"} value={<span>3</span>} onclick={() => setCount(3)} />
+                <Button className={"checkedButton"} value={<span>4</span>} onclick={() => setCount(4)} />
+                <Button className={"checkedButton"} value={<span>5</span>} onclick={() => setCount(5)} />
               </div>
-              <SubmitButton onclick={submitFoo} value={<span className="submitSpan">SUBMIT</span>}/>
+              <SubmitButton onclick={submitFoo} value={<span className="submitSpan">SUBMIT</span>} />
             </div>
           </div>
 
